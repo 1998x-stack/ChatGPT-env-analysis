@@ -1,0 +1,50 @@
+[
+  {
+    "namespace": "user_settings",
+    "count": 2
+  },
+  {
+    "namespace": "Google_Contacts",
+    "count": 3
+  },
+  {
+    "namespace": "Google_Calendar",
+    "count": 15
+  },
+  {
+    "namespace": "Gmail",
+    "count": 21
+  },
+  {
+    "namespace": "Google_Drive",
+    "count": 45
+  },
+  {
+    "namespace": "GitHub",
+    "count": 89
+  },
+  {
+    "namespace": "Remote_Desktop_Commander",
+    "count": 30
+  },
+  {
+    "namespace": "Finances",
+    "count": 14
+  },
+  {
+    "namespace": "Automations",
+    "count": 8
+  },
+  {
+    "namespace": "Plugin_Management",
+    "count": 6
+  },
+  {
+    "namespace": "files",
+    "count": 7
+  },
+  {
+    "namespace": "skills",
+    "count": 2
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-13",
+  "date": "2026-11-13",
+  "scope": "ChatGPT Linux container + tool registry",
+  "os": "Debian 13.3 / Linux 6.18.57",
+  "architecture": "x86_64",
+  "python": "3.13.5",
+  "node": "22.16.0",
+  "resource_cpu": "4 CPU quota",
+  "resource_memory": "4 GiB cgroup",
+  "gpu": "CPU only observed",
+  "limitations": "Container and tool registry are separate; permissions outside the container not audited.",
+  "counts": {
+    "core_skills": 4,
+    "plugin_skills": 31,
+    "bundled_skill": 1,
+    "tool_interfaces": 242,
+    "pip_main": 507,
+    "pip_tool": 124,
+    "pip_terminal": 14,
+    "pip_system": 34,
+    "debian": 1398,
+    "npm_global": 22,
+    "path_commands": 2101,
+    "font_filepaths": 2561
+  }
+}

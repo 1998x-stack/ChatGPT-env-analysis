@@ -1,0 +1,37 @@
+id,name,origin,category,reference,evidence,publish
+local:docx,docx,Core local Skill,Document authoring,/home/oai/skills/docx/SKILL.md,filesystem,metadata-only
+local:pdfs,pdfs,Core local Skill,PDF pipeline,/home/oai/skills/pdfs/SKILL.md,filesystem,metadata-only
+local:slides,slides,Core local Skill,Slides and visual design,/home/oai/skills/slides/SKILL.md,filesystem,metadata-only
+local:spreadsheets,spreadsheets,Core local Skill,Spreadsheet modeling,/home/oai/skills/spreadsheets/SKILL.md,filesystem,metadata-only
+bundled:typer,typer,"Bundled, not registered",Python package,typer/.agents/skills/typer/SKILL.md,filesystem,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-analytics-dashboard,artifact-template-analytics-dashboard,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-analytics-dashboard,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-business-review,artifact-template-business-review,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-business-review,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-design-report,artifact-template-design-report,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-design-report,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-experiment-analysis,artifact-template-experiment-analysis,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-experiment-analysis,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-financial-budget,artifact-template-financial-budget,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-financial-budget,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-investment-committee-memo,artifact-template-investment-committee-memo,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-investment-committee-memo,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-legal-memorandum,artifact-template-legal-memorandum,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-legal-memorandum,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-market-trends-report,artifact-template-market-trends-report,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-market-trends-report,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-minimal-letterhead,artifact-template-minimal-letterhead,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-minimal-letterhead,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-operating-calendar,artifact-template-operating-calendar,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-operating-calendar,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-operating-review,artifact-template-operating-review,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-operating-review,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-project-kickoff,artifact-template-project-kickoff,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-project-kickoff,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-project-tracker,artifact-template-project-tracker,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-project-tracker,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-sales-pipeline,artifact-template-sales-pipeline,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-sales-pipeline,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-simple-dark-mode,artifact-template-simple-dark-mode,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-simple-dark-mode,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-simple-light-mode,artifact-template-simple-light-mode,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-simple-light-mode,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-strategy-memorandum,artifact-template-strategy-memorandum,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-strategy-memorandum,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-system-design,artifact-template-system-design,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-system-design,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-team-alignment,artifact-template-team-alignment,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-team-alignment,registry,metadata-only
+plugin:skills://plugins/openai-templates/artifact-template-three-statement-forecast,artifact-template-three-statement-forecast,Plugin registry,openai-templates,skills://plugins/openai-templates/artifact-template-three-statement-forecast,registry,metadata-only
+plugin:skills://plugins/template-creator/template-creator,template-creator,Plugin registry,template-creator,skills://plugins/template-creator/template-creator,registry,metadata-only
+plugin:skills://plugins/presentations-router/presentation,presentation,Plugin registry,presentations-router,skills://plugins/presentations-router/presentation,registry,metadata-only
+plugin:skills://plugins/pdf-router/pdf,pdf,Plugin registry,pdf-router,skills://plugins/pdf-router/pdf,registry,metadata-only
+plugin:skills://plugins/documents-router/document,document,Plugin registry,documents-router,skills://plugins/documents-router/document,registry,metadata-only
+plugin:skills://plugins/google-drive/google-docs,google-docs,Plugin registry,google-drive,skills://plugins/google-drive/google-docs,registry,metadata-only
+plugin:skills://plugins/google-drive/google-drive,google-drive,Plugin registry,google-drive,skills://plugins/google-drive/google-drive,registry,metadata-only
+plugin:skills://plugins/google-drive/google-drive-comments,google-drive-comments,Plugin registry,google-drive,skills://plugins/google-drive/google-drive-comments,registry,metadata-only
+plugin:skills://plugins/google-drive/google-sheets,google-sheets,Plugin registry,google-drive,skills://plugins/google-drive/google-sheets,registry,metadata-only
+plugin:skills://plugins/google-drive/google-slides,google-slides,Plugin registry,google-drive,skills://plugins/google-drive/google-slides,registry,metadata-only
+plugin:skills://plugins/plugin-management/plugin-management,plugin-management,Plugin registry,plugin-management,skills://plugins/plugin-management/plugin-management,registry,metadata-only
+plugin:skills://plugins/spreadsheets-router/spreadsheet,spreadsheet,Plugin registry,spreadsheets-router,skills://plugins/spreadsheets-router/spreadsheet,registry,metadata-only

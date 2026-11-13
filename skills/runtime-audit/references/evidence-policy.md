@@ -1,0 +1,3 @@
+# Evidence policy
+
+An audit claim must be traceable to a result and a boundary. A successful package listing does not prove importability. An import does not prove functionality. An advertised connector does not prove current authorization. GitHub Pages source files do not prove a public Pages URL is live. Use source + observation + verification date + limitation for each notable claim. Treat missing PATH commands as absent from PATH only. Prefer cgroup resource limits over host-level counts for job sizing. Document all failures (including missing DNS, module conflicts, and test failures) without hiding them in a success summary.

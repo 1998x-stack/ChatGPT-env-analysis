@@ -1,0 +1,279 @@
+{
+  "files": [
+    {
+      "path": ".github/SECURITY.md",
+      "bytes": 463,
+      "sha256": "865ceeb93c23b067585e2f94e0ff1d1e0cedcdb2621aa6a6a77acb4017201630"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 586,
+      "sha256": "5e2a94a945ddfeb172d4b318e3688bc2fc484d5b943c6da02bb33c0b00df3cb5"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 644,
+      "sha256": "cd5ba6831243c0fed9b97fc935e79ea5c30964793e4601cbea2b6d26cab71aea"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 132,
+      "sha256": "ae63528de335b38298ce38d6fefd6d615111ac044c7d036d467ccf292c13f32f"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1319,
+      "sha256": "93012e7930efbfc9e4fe32fa12c23c6eb61cb280399aa93d6e2019e13d2e735f"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1141,
+      "sha256": "479158e1cea862e1d809dbb417306c16790cfa0e455462dc02d5fb79a7acbfd0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5516,
+      "sha256": "4e89d6cf2df136c0fafef0634cbf07a6e08990fcde4d8b040e16400c9b394222"
+    },
+    {
+      "path": "data/catalog/packages.csv",
+      "bytes": 72283,
+      "sha256": "edb6e1129acd668d9ca9f353cba39b340d8d0346db2c52d8fa1c0429dbd84adc"
+    },
+    {
+      "path": "data/catalog/plugin-skill-registry.tsv",
+      "bytes": 2434,
+      "sha256": "b9c6ad2f78d06e57613031f020fd97fd64d7a9b14e67443a93fbb733f7d7dbc0"
+    },
+    {
+      "path": "data/catalog/risks.csv",
+      "bytes": 1345,
+      "sha256": "6b7b11c0cee549cb9672b1e71e06fb6fc3615d781a8d79cba89ff8e4f9df8de9"
+    },
+    {
+      "path": "data/catalog/skills.csv",
+      "bytes": 7291,
+      "sha256": "5c0d85adf1af372d31be9844f8a3f856d4a371b68237b9226926914aed46941f"
+    },
+    {
+      "path": "data/catalog/summary.json",
+      "bytes": 724,
+      "sha256": "f9b1d1a127eddf2d9bf987e31eb74f6473029b132b3b62cbf3948bac4bbcacd8"
+    },
+    {
+      "path": "data/catalog/tools.csv",
+      "bytes": 11508,
+      "sha256": "546883863f04c9f7d9f42bbc3559251103b3d6e80a2249ba6b1ff5130701a2b0"
+    },
+    {
+      "path": "data/snapshots/2026-11-13/audit-validation.json",
+      "bytes": 549,
+      "sha256": "a5b20b36a084fc32cf292da0ce3117fd5f414be25330299b558e493b70df2b15"
+    },
+    {
+      "path": "data/snapshots/2026-11-13/smoke-results.json",
+      "bytes": 3408,
+      "sha256": "3367250db33b48b69164f6e90b952fdd2e10d6509633da5f5a18fbc7ab2d2db8"
+    },
+    {
+      "path": "data/snapshots/2026-11-13/tool-groups.json",
+      "bytes": 685,
+      "sha256": "6ab7d680cc655ec213e18886d923d0e5ae7f22a84b8f76ccaf32ad2bcda01b61"
+    },
+    {
+      "path": "docs/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/assets/app.js",
+      "bytes": 6956,
+      "sha256": "2ca3069cfe3b6492389d7b43d0df53b4c392e706c5df0af2421a58635275a587"
+    },
+    {
+      "path": "docs/assets/favicon.svg",
+      "bytes": 249,
+      "sha256": "d318016a34f48237ef373f0f582a3636ae59343cd30d599a86c688015830ef74"
+    },
+    {
+      "path": "docs/assets/preview.jpg",
+      "bytes": 152819,
+      "sha256": "7ce3d47692f8e5a1f6006461be9d6a39817059b9cf270bcab990eec16b8be12f"
+    },
+    {
+      "path": "docs/assets/style.css",
+      "bytes": 16134,
+      "sha256": "7f2d1f566d6e8a9e145664760f3738ca8fee92eb8212ac70327c5c7e81184948"
+    },
+    {
+      "path": "docs/data/catalog.json",
+      "bytes": 178750,
+      "sha256": "cabf18ef687fdcb88c704735ac3e63c330507326b19cdfaade1d53ea3d76aea7"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 14207,
+      "sha256": "8e220f76a476f6dcc5a624f0faff9a58739c66450bdd07bcc6a1682e3633f7ad"
+    },
+    {
+      "path": "documents/ChatGPT-environment-brief-2026-11-13.docx",
+      "bytes": 40297,
+      "sha256": "466f9f5cf7942dbabaf4946a162cf78bcf46b4e7a6e263810e83c73e96965b1c"
+    },
+    {
+      "path": "documents/ChatGPT-environment-brief-2026-11-13.pdf",
+      "bytes": 205228,
+      "sha256": "238f62dceb047f8d4d5d3c1b101737df68f0747c950061d9cb0aff2911b6faa2"
+    },
+    {
+      "path": "handbook/README.md",
+      "bytes": 1379,
+      "sha256": "5e7aaa13c17cd7ad28c0def5ad4a3f8db2e2b64a3a65e6f202cccd42682f0aad"
+    },
+    {
+      "path": "handbook/architecture.md",
+      "bytes": 1514,
+      "sha256": "0e3df85224a2b439a60fd95606833b133f0e0a275f3357201796da1a28a063b5"
+    },
+    {
+      "path": "handbook/governance/data-dictionary.md",
+      "bytes": 1195,
+      "sha256": "024b7bcf9807a186cac805d52ee54832c8c17a7839a370fd246b42d74936b08e"
+    },
+    {
+      "path": "handbook/governance/publication-safety.md",
+      "bytes": 1107,
+      "sha256": "172ed9bc43177bb8a5423349e95eca1a1b1603f67efc954e4434221bce635f16"
+    },
+    {
+      "path": "handbook/inventory/connectors.md",
+      "bytes": 985,
+      "sha256": "8b489fbc007232c993b67207d24ce90644ecfe45e909747f065b63cc882a942c"
+    },
+    {
+      "path": "handbook/inventory/linux.md",
+      "bytes": 1017,
+      "sha256": "408721f4b8ba7973f440b886899ed526f8d61cd99828d2ea135ee8a590743e9e"
+    },
+    {
+      "path": "handbook/inventory/python.md",
+      "bytes": 1033,
+      "sha256": "09f437d5f30a45552169b7d603be3dc500bffa890eeaa7d3b5686b3cef269994"
+    },
+    {
+      "path": "handbook/inventory/quality.md",
+      "bytes": 896,
+      "sha256": "91e01adceb917cdec81a5e2723894bffdccfa645a8c05c807e74dfcdd3ef71d6"
+    },
+    {
+      "path": "handbook/inventory/skills.md",
+      "bytes": 1071,
+      "sha256": "19f0d0b5deedb63739b4e27c262feef4cc2b13a66259d2687013a1159365b271"
+    },
+    {
+      "path": "handbook/operations/github-pages.md",
+      "bytes": 1555,
+      "sha256": "4656a90fd231f8ba3834440023c65d26d927b4cbbb5c8aeca90825bb82666ec5"
+    },
+    {
+      "path": "handbook/operations/migration.md",
+      "bytes": 1337,
+      "sha256": "09bfb861e6eda8918f855374189305da5cade2913be8e107cd3731a2020746b3"
+    },
+    {
+      "path": "handbook/operations/reproduction.md",
+      "bytes": 1044,
+      "sha256": "4fa17175c57991f0dada48a96b054a806b156269973146d8535d93f7b8a520e3"
+    },
+    {
+      "path": "handbook/roadmap.md",
+      "bytes": 832,
+      "sha256": "0ed2025516be57eacab3a1fea231ec018f2abeec4e4fec676fb68d51abf6d2d6"
+    },
+    {
+      "path": "reports/2026-11-13/original-audit.md",
+      "bytes": 23713,
+      "sha256": "bab1e96e3b289ccc66808642023dddb120cfd602f133e4fd7c6636090ccf4a23"
+    },
+    {
+      "path": "scripts/build_catalog.py",
+      "bytes": 7807,
+      "sha256": "d9649e48c14fb3f0c96f396f232bc74940869db7bbd9d6df2325db74929914f0"
+    },
+    {
+      "path": "scripts/create_brief.py",
+      "bytes": 5699,
+      "sha256": "dfc21e0b11848439fbf8ac374acf8883b9ca18fe471768a5a667dc82611af5bc"
+    },
+    {
+      "path": "scripts/create_workbook.py",
+      "bytes": 5477,
+      "sha256": "632768c3dc4953e1cad7982131bf8d899532a472bca4bdb9463bf8095e802b0f"
+    },
+    {
+      "path": "skills/environment-diff/SKILL.md",
+      "bytes": 1184,
+      "sha256": "ee260f17f7cacbb4a7e6a5d4fc8573280c1aa5f2cfaf12e76bf3b4208351054a"
+    },
+    {
+      "path": "skills/environment-diff/references/change-severity.md",
+      "bytes": 462,
+      "sha256": "7b90cbbcdec72997aea173b53086089d5a1061d90a9637a48934c40d7dd4d4a5"
+    },
+    {
+      "path": "skills/environment-diff/scripts/compare_snapshots.py",
+      "bytes": 1729,
+      "sha256": "fd5f8d4aec0261b817b0ed42345deb2188acfce5f4bd18ae38fabe07af57760e"
+    },
+    {
+      "path": "skills/runtime-audit/SKILL.md",
+      "bytes": 2851,
+      "sha256": "00ddb9a1f756c2b7f595c893afdf130f6e8b3d245052955321115ba86b67418a"
+    },
+    {
+      "path": "skills/runtime-audit/references/evidence-policy.md",
+      "bytes": 638,
+      "sha256": "2c859c33bbfdadf768e3c81f81f470f3e1a7700442410eee9e2660858b7ce45d"
+    },
+    {
+      "path": "skills/runtime-audit/references/publication-safety.md",
+      "bytes": 1002,
+      "sha256": "c0797ded01a109ed6cca31d5f350fe88cf963337edf57b5ddea22f9effdc4822"
+    },
+    {
+      "path": "skills/runtime-audit/scripts/audit_runtime.py",
+      "bytes": 3450,
+      "sha256": "90a757018128e242182f05f24b803a0f67dd7084e563641117f1ff27e33b746e"
+    },
+    {
+      "path": "skills/skill-inventory/SKILL.md",
+      "bytes": 1518,
+      "sha256": "2a00a0865ea9d1a26d30a48a0cfa6e415e9136dfc73530d94fc3f42b8063f6c4"
+    },
+    {
+      "path": "skills/skill-inventory/references/taxonomy.md",
+      "bytes": 531,
+      "sha256": "5567e9ff8753efc56e4a21bbe818d20baa1802772f026e2b8f12c7481105e7c3"
+    },
+    {
+      "path": "skills/skill-inventory/scripts/catalog_skills.py",
+      "bytes": 1759,
+      "sha256": "c1b42a3a6c53713cb325eb85752ee33432615bff3970c23e86db42380e317ea8"
+    },
+    {
+      "path": "spreadsheets/ChatGPT-environment-audit-2026-11-13.xlsx",
+      "bytes": 62117,
+      "sha256": "26997e049bb89154f28cd229633b8d4cd6369f79e210816f8b3b7286f8a5b0e5"
+    },
+    {
+      "path": "tests/browser_smoke.py",
+      "bytes": 2188,
+      "sha256": "d818271a240c2cdf2e90ea00e70694476d87d75d840d54b508e66c640b9ee12b"
+    },
+    {
+      "path": "tests/test_inventory.py",
+      "bytes": 2095,
+      "sha256": "1793358aa909ac22d9b2eb17e8b273a89b2074c6db93568b862479c367081821"
+    }
+  ]
+}

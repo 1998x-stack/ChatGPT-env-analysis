@@ -1,0 +1,8 @@
+id,severity,domain,title,evidence,level,mitigation
+R-01,high,Python,moviepy 2.2.1 vs Pillow 12.3.0,pip check failed: version constraint mismatch,Observed,Pin a compatible Pillow or MoviePy build in an isolated venv; re-test before changing shared environment
+R-02,medium,Python,system supervisor missing setuptools,pip check failed for system Python,Observed,Do not modify Debian system Python in place; repair only inside a controlled image
+R-03,high,Compute,4 GiB cgroup memory / 4 CPU quota,"cgroup values, not host reported memory",Validated,Size models and test runners to cgroup limits
+R-04,medium,Network,Direct container DNS check failed,curl exit code 6 for example.com,Observed,Use platform connectors for supported external workflows; do not assume generic Internet access
+R-05,medium,Browser,Playwright data: navigation blocked,data: goto failure; set_content passed,Validated,Use page.set_content or a local server; test target navigation policy
+R-06,medium,Publication,Platform Skills have unknown reuse licenses,Metadata available; code redistribution not authorized,Declared,Publish URI/summary only and original project Skills; manual private export if authorized
+R-07,medium,Availability,Connection permissions not individually exercised,Tool registry is not an auth audit,Unknown,Check each external service on demand

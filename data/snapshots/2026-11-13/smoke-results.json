@@ -1,0 +1,100 @@
+{
+  "python_core_imports": {
+    "status": "PASS",
+    "exit_code": 0,
+    "duration_s": 4.96,
+    "stdout": "OK\n",
+    "stderr": ""
+  },
+  "python_document_imports": {
+    "status": "PASS",
+    "exit_code": 0,
+    "duration_s": 1.08,
+    "stdout": "OK\n",
+    "stderr": ""
+  },
+  "python_artifact_tool": {
+    "status": "PASS",
+    "exit_code": 0,
+    "duration_s": 0.68,
+    "stdout": "OK /opt/pyvenv/lib/python3.13/site-packages/artifact_tool/__init__.pyc\n",
+    "stderr": ""
+  },
+  "python_torch_cpu": {
+    "status": "PASS",
+    "exit_code": 0,
+    "duration_s": 2.42,
+    "stdout": "VERSION 2.10.0+cpu CUDA_AVAILABLE False CUDA_BUILD None\n",
+    "stderr": ""
+  },
+  "python_cv": {
+    "status": "PASS",
+    "exit_code": 0,
+    "duration_s": 0.85,
+    "stdout": "OpenCV 4.13.0\n",
+    "stderr": ""
+  },
+  "python_playwright_chromium": {
+    "status": "FAIL",
+    "exit_code": 1,
+    "duration_s": 1.81,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 5, in <module>\n    page.goto(\"data:text/html,<title>audit-ok</title><p>hello</p>\")\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/pyvenv/lib/python3.13/site-packages/playwright/sync_api/_generated.py\", line 9050, in goto\n    self._sync(\n    ~~~~~~~~~~^\n        self._impl_obj.goto(\n        ^^^^^^^^^^^^^^^^^^^^\n            url=url, timeout=timeout, waitUntil=wait_until, referer=referer\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        )\n        ^\n    )\n    ^\n  File \"/opt/pyvenv/lib/python3.13/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ~~~~~~~~~~~^^\n  File \"/opt/pyvenv/lib/python3.13/site-packages/playwright/_impl/_page.py\", line 552, in goto\n    return await self._main_frame.goto(**locals_to_params(locals()))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/pyvenv/lib/pyth"
+  },
+  "node_global_modules": {
+    "status": "FAIL",
+    "exit_code": 1,
+    "duration_s": 0.44,
+    "stdout": "pptxgenjs OK\nsharp OK\nskia-canvas OK\ntypescript OK\nmathjax-full FAIL MODULE_NOT_FOUND\nfontkit OK\n",
+    "stderr": ""
+  },
+  "font_cjk": {
+    "status": "PASS",
+    "exit_code": 0,
+    "duration_s": 0.01,
+    "stdout": "NotoSansCJK-Regular.ttc: \"Noto Sans CJK SC\" \"Regular\"\n",
+    "stderr": ""
+  },
+  "ffmpeg_codecs": {
+    "status": "PASS",
+    "exit_code": 0,
+    "duration_s": 0.06,
+    "stdout": "235 output lines",
+    "stderr": ""
+  },
+  "go_build_environment": {
+    "status": "PASS",
+    "exit_code": 0,
+    "duration_s": 0.0,
+    "stdout": "go1.23.2\nlinux\namd64\n",
+    "stderr": ""
+  },
+  "network_external_https": {
+    "status": "FAIL",
+    "exit_code": 6,
+    "duration_s": 5.02,
+    "stdout": "HTTP_STATUS=000\n",
+    "stderr": "curl: (6) Could not resolve host: example.com\n"
+  },
+  "python_playwright_chromium_set_content": {
+    "status": "PASS",
+    "exit_code": 0,
+    "duration_s": 2.06,
+    "stdout": "chromium 144.0.7559.96 title audit-ok\n",
+    "stderr": ""
+  },
+  "node_mathjax_subpath": {
+    "status": "PASS",
+    "exit_code": 0,
+    "duration_s": 0.03,
+    "stdout": "mathjax-full subpath OK object\n",
+    "stderr": ""
+  },
+  "python_sqlite_builtin": {
+    "status": "PASS",
+    "exit_code": 0,
+    "duration_s": 0.81,
+    "stdout": "sqlite3 3.46.1\n",
+    "stderr": ""
+  }
+}

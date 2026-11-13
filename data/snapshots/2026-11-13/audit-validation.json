@@ -1,0 +1,23 @@
+{
+  "valid": true,
+  "counts": {
+    "apt_packages": 1398,
+    "path_executables": 2101,
+    "plugin_skills": 31,
+    "connector_tools": 242,
+    "direct_tools": 18,
+    "local_skills_total_entries": 204,
+    "fonts_filepaths": 2561,
+    "pip_main": 507,
+    "pip_tool": 124,
+    "pip_terminal": 14,
+    "pip_system": 34,
+    "node_global_packages": 22
+  },
+  "checks": [
+    "Every manifest has a header",
+    "All enumeration totals cross-check",
+    "No secret values deliberately exported",
+    "Known partial smoke test failures retained"
+  ]
+}
