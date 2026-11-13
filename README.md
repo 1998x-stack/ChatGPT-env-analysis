@@ -98,3 +98,14 @@ python -m unittest discover -s tests -v
 ## 更新策略
 
 静态快照通过文件日期版本化；变化需附 `schema_version`、采集来源、失败结果和校验。请勿自动抓取账号私有数据或通过 Pages 暴露运行时环境变量。见 [AGENTS.md](AGENTS.md) 与 [Roadmap](handbook/roadmap.md)。
+
+## 便携式 Office Skills v2（独立实现）
+
+四套独立编写的本地文档处理 Skills（**不是** OpenAI 内置平台 Skills 原始文件，也不保证功能完全等价）：
+
+- [完整 ZIP 下载](downloads/portable-office-skills-v2/portable-office-skills-expanded-v2.zip) · [SHA-256 校验](downloads/portable-office-skills-v2/SHA256SUMS)
+- [DOCX Skill ZIP](downloads/portable-office-skills-v2/docx-open-expanded-v2.zip) · [PDF Skill ZIP](downloads/portable-office-skills-v2/pdf-open-expanded-v2.zip)
+- [Slides Skill ZIP](downloads/portable-office-skills-v2/slides-open-expanded-v2.zip) · [Spreadsheets Skill ZIP](downloads/portable-office-skills-v2/spreadsheets-open-expanded-v2.zip)
+- [中文迁移手册](handbook/operations/portable-office-skills-v2-migration.md) · [功能覆盖/限制矩阵](handbook/inventory/portable-office-skills-v2-features.md) · [版权来源边界](handbook/governance/portable-office-skills-v2-provenance.md)
+
+在 2026-11-13 的运行环境中，11 项独立功能测试已通过。四个受专有许可限制的原始平台 Skills **没有**包含在任何 ZIP 中。
